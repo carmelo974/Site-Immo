@@ -3,6 +3,8 @@ const nbSlide = itemsSlide.length;
 const suivant = document.querySelector(".right");
 const precedent = document.querySelector(".left");
 let count = 0;
+console.log(nbSlide);
+
 
 suivant.addEventListener("click", slideSuivante);
 
